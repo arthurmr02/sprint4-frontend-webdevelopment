@@ -155,8 +155,8 @@ O **gerador de sugestões** (`Math.random()` e `Math.floor()`) agora está na se
 
 O deploy é feito pela **Vercel**, ligada ao repositório Git. A Vercel detecta o Vite sozinha (comando `npm run build`, pasta de saída `dist`). O arquivo `vercel.json` garante que endereços como `/biblioteca` funcionem ao atualizar a página.
 
-- **Deploy na Vercel:** [PREENCHER LINK DO DEPLOY]
-- **Repositório Git:** [PREENCHER LINK DO REPOSITÓRIO]
+- **Deploy na Vercel:** sprint4-frontend-webdevelopment.vercel.app
+- **Repositório Git:** https://github.com/arthurmr02/sprint4-frontend-webdevelopment
 
 ## 10. Integrantes
 
