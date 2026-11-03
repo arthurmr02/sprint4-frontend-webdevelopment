@@ -1,0 +1,67 @@
+@import "tailwindcss";
+
+/* Identidade visual da Lensy (mesmas cores e fontes da Sprint 03 e do front-end da Sprint 04) */
+@theme {
+  --color-bg: #0c0d13;
+  --color-surface: #13141d;
+  --color-card: #1a1c28;
+  --color-line: #292b3c;
+  --color-ink: #f2f2f6;
+  --color-muted: #9a9cb0;
+  --color-dim: #5c5e72;
+  --color-brand: #3d8bd4;
+  --color-roxo: #9d6fff;
+  --color-brand-soft: rgb(61 139 212 / 0.14);
+  --color-roxo-soft: rgb(157 111 255 / 0.14);
+
+  --font-sans: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", ui-sans-serif, system-ui, sans-serif;
+}
+
+@layer base {
+  html { scroll-padding-top: 5rem; }
+  @media (prefers-reduced-motion: no-preference) { html { scroll-behavior: smooth; } }
+  @media (prefers-reduced-motion: reduce) { *, *::before, *::after { transition: none !important; animation: none !important; } }
+  body { @apply bg-bg text-ink font-sans antialiased leading-relaxed; }
+  h1, h2, h3, h4 { @apply font-display; }
+  ::selection { @apply bg-brand text-bg; }
+  :focus-visible { @apply outline-2 outline-offset-2 outline-brand; }
+}
+
+@layer components {
+  .wrap { @apply mx-auto w-full max-w-[1240px] px-5 sm:px-8; }
+
+  .eyebrow {
+    @apply inline-flex items-center text-xs font-bold uppercase tracking-[2px] text-brand;
+  }
+  .eyebrow-roxo { @apply text-roxo; }
+
+  .btn {
+    @apply inline-flex cursor-pointer items-center justify-center gap-2 rounded-md border border-transparent
+      px-6 py-3 text-[15px] font-bold transition-colors duration-150 disabled:cursor-not-allowed disabled:opacity-60;
+  }
+  .btn-primary { @apply bg-brand text-[#08181a] hover:bg-[#5a9fe0]; }
+  .btn-ghost { @apply border-line text-ink hover:border-brand hover:text-brand; }
+
+  .card { @apply rounded-lg border border-line bg-card; }
+  .card-hover { @apply transition-colors duration-150 hover:border-brand/60; }
+
+  .section-title { @apply mt-3.5 text-[30px] leading-tight font-bold sm:text-[36px] lg:text-[40px]; }
+  .section-text { @apply mt-4 text-base text-muted sm:text-[17px]; }
+
+  /* Cantos de "visor de câmera" usados no hero e na galeria */
+  .corner { @apply pointer-events-none absolute size-5 border-brand; }
+  .corner-tl { @apply -top-px -left-px border-t-2 border-l-2; }
+  .corner-tr { @apply -top-px -right-px border-t-2 border-r-2; }
+  .corner-bl { @apply -bottom-px -left-px border-b-2 border-l-2; }
+  .corner-br { @apply -right-px -bottom-px border-r-2 border-b-2; }
+
+  .nav-link { @apply rounded-md px-3 py-2 text-sm font-bold text-muted transition-colors hover:bg-card hover:text-ink; }
+  .nav-link.is-active { @apply bg-card text-ink; }
+
+  .field-input {
+    @apply w-full rounded-md border border-line bg-bg p-3 text-ink placeholder:text-dim transition-colors outline-none
+      focus:border-brand focus:ring-2 focus:ring-brand/30;
+  }
+  .field-input[aria-invalid="true"] { @apply border-red-400 focus:border-red-400 focus:ring-red-400/30; }
+}

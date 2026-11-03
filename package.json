@@ -1,0 +1,23 @@
+{
+  "name": "lensy-smart-lens",
+  "private": true,
+  "version": "4.0.0",
+  "type": "module",
+  "description": "Lensy: projeto da equipe Smart Lens (Challenge JOVI Smartphone, FIAP). Sprint 04 com React, Tailwind CSS, rotas e consumo de API.",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.30.6"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.3.3",
+    "@vitejs/plugin-react": "^4.7.0",
+    "tailwindcss": "^4.3.3",
+    "vite": "^5.4.21"
+  }
+}

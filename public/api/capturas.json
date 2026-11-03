@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "materia": "Matemática",
+    "titulo": "Lousa de Matemática",
+    "resumo": "Exercícios de funções corrigidos automaticamente pelo scanner.",
+    "acao": "Correção de perspectiva",
+    "data": "2026-09-14",
+    "paginas": 2,
+    "pontos": [
+      "Função afim: o gráfico é sempre uma reta, com coeficiente angular a e linear b.",
+      "Raízes da função quadrática encontradas com a fórmula de Bhaskara.",
+      "Exercício 4 marcado pela turma como dúvida para a próxima aula."
+    ],
+    "tags": ["funções", "lista 3", "prova"]
+  },
+  {
+    "id": 2,
+    "materia": "Engenharia de Software",
+    "titulo": "Resumo de Engenharia de Software",
+    "resumo": "Resumo gerado a partir das anotações da aula sobre requisitos.",
+    "acao": "Scanner inteligente",
+    "data": "2026-09-18",
+    "paginas": 3,
+    "pontos": [
+      "Requisitos funcionais descrevem o que o sistema faz; os não funcionais, como ele se comporta.",
+      "Histórias de usuário seguem o modelo: como [persona], quero [ação], para [objetivo].",
+      "Critérios de aceite precisam ser objetivos e testáveis."
+    ],
+    "tags": ["requisitos", "user stories", "agile"]
+  },
+  {
+    "id": 3,
+    "materia": "Algoritmos",
+    "titulo": "Anotação de Algoritmos",
+    "resumo": "Fotos de estruturas de repetição digitalizadas em texto.",
+    "acao": "Scanner inteligente",
+    "data": "2026-09-22",
+    "paginas": 2,
+    "pontos": [
+      "while repete enquanto a condição for verdadeira; for é usado quando o número de voltas é conhecido.",
+      "Todo laço precisa de uma condição de parada para não virar laço infinito.",
+      "Exemplo da aula: somar os números de 1 a 100 com um laço."
+    ],
+    "tags": ["laços", "while", "for"]
+  },
+  {
+    "id": 4,
+    "materia": "Física",
+    "titulo": "Lousa de Física",
+    "resumo": "Fórmulas de cinemática organizadas automaticamente por data.",
+    "acao": "Correção de perspectiva",
+    "data": "2026-09-25",
+    "paginas": 1,
+    "pontos": [
+      "MRU: s = s0 + v · t, com velocidade constante.",
+      "MRUV: v = v0 + a · t e s = s0 + v0 · t + a · t² / 2.",
+      "Equação de Torricelli: v² = v0² + 2 · a · Δs."
+    ],
+    "tags": ["cinemática", "MRU", "MRUV"]
+  },
+  {
+    "id": 5,
+    "materia": "Inglês",
+    "titulo": "Texto de Inglês Técnico",
+    "resumo": "Trecho de documentação traduzido na própria câmera.",
+    "acao": "Tradução de texto",
+    "data": "2026-10-02",
+    "paginas": 1,
+    "pontos": [
+      "O texto original em inglês foi reconhecido e traduzido sem sair da câmera.",
+      "Vocabulário novo: deploy (publicação), build (compilação), dependency (dependência).",
+      "A tradução ficou salva junto da foto, na pasta da matéria."
+    ],
+    "tags": ["vocabulário", "documentação", "tradução"]
+  },
+  {
+    "id": 6,
+    "materia": "Banco de Dados",
+    "titulo": "Modelo Entidade-Relacionamento",
+    "resumo": "Diagrama da lousa recortado e deixado reto pelo scanner.",
+    "acao": "Scanner inteligente",
+    "data": "2026-10-06",
+    "paginas": 2,
+    "pontos": [
+      "Entidades viram tabelas; atributos viram colunas.",
+      "Relacionamento 1:N usa chave estrangeira no lado N.",
+      "Chave primária identifica cada linha de forma única."
+    ],
+    "tags": ["MER", "chaves", "modelagem"]
+  },
+  {
+    "id": 7,
+    "materia": "Banco de Dados",
+    "titulo": "Slides de SQL",
+    "resumo": "Slides projetados fotografados e organizados por aula.",
+    "acao": "Organização automática",
+    "data": "2026-10-13",
+    "paginas": 4,
+    "pontos": [
+      "SELECT escolhe as colunas, FROM indica a tabela e WHERE filtra as linhas.",
+      "JOIN combina linhas de duas tabelas a partir de uma chave em comum.",
+      "GROUP BY agrupa linhas para usar funções como COUNT e SUM."
+    ],
+    "tags": ["SQL", "JOIN", "consultas"]
+  },
+  {
+    "id": 8,
+    "materia": "Inglês",
+    "titulo": "Vocabulário da Aula 7",
+    "resumo": "Lista de palavras da lousa com a tradução ao lado.",
+    "acao": "Tradução de texto",
+    "data": "2026-10-20",
+    "paginas": 1,
+    "pontos": [
+      "Dezesseis palavras novas reconhecidas na lousa.",
+      "Cada termo recebeu a tradução e um exemplo de uso em frase.",
+      "Lista pronta para virar flashcards na próxima etapa do app."
+    ],
+    "tags": ["vocabulário", "aula 7"]
+  }
+]

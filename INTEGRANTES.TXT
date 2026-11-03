@@ -1,0 +1,10 @@
+PROJETO: Lensy (equipe Smart Lens)
+CHALLENGE: JOVI Smartphone (FIAP)
+ENTREGA: Sprint 04, Front-End Design + Web Development
+
+INTEGRANTES DO GRUPO:
+
+Arthur Romão - RM 568878                          Função: Tech Leader
+Henrique Ferreira - RM 570740                     Função: UX/UI Design
+Vinicius Romão - RM 564379                        Função: Front-End
+Julia Lopes da Silva Camelo - RM 574139           Função: UX/UI Design
